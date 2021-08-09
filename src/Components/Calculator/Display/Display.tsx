@@ -1,15 +1,33 @@
 import React from "react";
 import s from './Display.module.css'
+import {UniversalInput} from "../UniversalInput/UniversalInput";
+import {ButtonForCalcRemote} from "../ButtoForCalcRemote/ButtonForCalcRemote";
 
-type DisplayPropsType = {
+type DisplayPropsType = {}
 
-}
+export function Display(props: DisplayPropsType) {
 
-export function Display (props: DisplayPropsType) {
-
-    return(
+    return (
         <div className={s.calcDisplay}>
-            display
+            <div className={s.displayItems}>
+                <ButtonForCalcRemote BackgroundColor={'#67b835'}
+                                     color={'#1b2e0f'}
+                                     width={'31px'}
+                                     height={'31px'}
+                                     fontSize={'18px'}
+                                     ButtonValue={'C'}
+                />
+
+
+                <UniversalInput fontSize={'18px'}
+                                border={'2px solid #67b835'}
+                                outline={'none'}
+                                backgroundColor={'#1b2e0f'}
+                                color={'#67b835'}
+                                width={'100px'}
+                                height={'24px'}
+                />
+            </div>
         </div>
     )
 }

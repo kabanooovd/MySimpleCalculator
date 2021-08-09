@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import './App.css';
 import {Calculator} from "./Components/Calculator/Calculator";
 import {ButtonForCalcRemote} from "./Components/Calculator/ButtoForCalcRemote/ButtonForCalcRemote";
+import {UniversalInput} from "./Components/Calculator/UniversalInput/UniversalInput";
 
 function App() {
 
@@ -9,6 +10,10 @@ function App() {
 
   return (
     <div className="App">
+
+
+
+
         <Calculator someCalc={someCalc}
                     setSomeCalc={setSomeCalc}
 
@@ -18,6 +23,7 @@ function App() {
 }
 
 export default App;
+
 
 
 
