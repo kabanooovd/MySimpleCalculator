@@ -4,3 +4,10 @@
     height: 200px;
     width: 175px;
 }
+
+.btnRowStyle {
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-around;
+}
+
