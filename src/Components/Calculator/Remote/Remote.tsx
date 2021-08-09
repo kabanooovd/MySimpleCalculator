@@ -14,6 +14,7 @@ export function Remote(props: RemotePropsType) {
 
             <div className={s.btnRowStyle}>
                 <ButtonForCalcRemote BackgroundColor={'#67b835'}
+                                     border={'2px solid #1b2e0f'}
                                      color={'#1b2e0f'}
                                      width={'40px'}
                                      height={'40px'}
@@ -22,6 +23,7 @@ export function Remote(props: RemotePropsType) {
                                      currentValueCallback={props.currentValueCallback}
                 />
                 <ButtonForCalcRemote BackgroundColor={'#67b835'}
+                                     border={'2px solid #1b2e0f'}
                                      color={'#1b2e0f'}
                                      width={'40px'}
                                      height={'40px'}
@@ -30,6 +32,7 @@ export function Remote(props: RemotePropsType) {
                                      currentValueCallback={props.currentValueCallback}
                 />
                 <ButtonForCalcRemote BackgroundColor={'#67b835'}
+                                     border={'2px solid #1b2e0f'}
                                      color={'#1b2e0f'}
                                      width={'40px'}
                                      height={'40px'}
@@ -38,6 +41,7 @@ export function Remote(props: RemotePropsType) {
                                      currentValueCallback={props.currentValueCallback}
                 />
                 <ButtonForCalcRemote BackgroundColor={'#67b835'}
+                                     border={'2px solid #1b2e0f'}
                                      color={'#1b2e0f'}
                                      width={'40px'}
                                      height={'40px'}
@@ -49,6 +53,7 @@ export function Remote(props: RemotePropsType) {
             <div className={s.btnRowStyle}>
 
                 <ButtonForCalcRemote BackgroundColor={'#67b835'}
+                                     border={'2px solid #1b2e0f'}
                                      color={'#1b2e0f'}
                                      width={'40px'}
                                      height={'40px'}
@@ -57,6 +62,7 @@ export function Remote(props: RemotePropsType) {
                                      currentValueCallback={props.currentValueCallback}
                 />
                 <ButtonForCalcRemote BackgroundColor={'#67b835'}
+                                     border={'2px solid #1b2e0f'}
                                      color={'#1b2e0f'}
                                      width={'40px'}
                                      height={'40px'}
@@ -65,6 +71,7 @@ export function Remote(props: RemotePropsType) {
                                      currentValueCallback={props.currentValueCallback}
                 />
                 <ButtonForCalcRemote BackgroundColor={'#67b835'}
+                                     border={'2px solid #1b2e0f'}
                                      color={'#1b2e0f'}
                                      width={'40px'}
                                      height={'40px'}
@@ -73,6 +80,7 @@ export function Remote(props: RemotePropsType) {
                                      currentValueCallback={props.currentValueCallback}
                 />
                 <ButtonForCalcRemote BackgroundColor={'#67b835'}
+                                     border={'2px solid #1b2e0f'}
                                      color={'#1b2e0f'}
                                      width={'40px'}
                                      height={'40px'}
@@ -83,6 +91,7 @@ export function Remote(props: RemotePropsType) {
             </div>
             <div className={s.btnRowStyle}>
                 <ButtonForCalcRemote BackgroundColor={'#67b835'}
+                                     border={'2px solid #1b2e0f'}
                                      color={'#1b2e0f'}
                                      width={'40px'}
                                      height={'40px'}
@@ -91,6 +100,7 @@ export function Remote(props: RemotePropsType) {
                                      currentValueCallback={props.currentValueCallback}
                 />
                 <ButtonForCalcRemote BackgroundColor={'#67b835'}
+                                     border={'2px solid #1b2e0f'}
                                      color={'#1b2e0f'}
                                      width={'40px'}
                                      height={'40px'}
@@ -99,6 +109,7 @@ export function Remote(props: RemotePropsType) {
                                      currentValueCallback={props.currentValueCallback}
                 />
                 <ButtonForCalcRemote BackgroundColor={'#67b835'}
+                                     border={'2px solid #1b2e0f'}
                                      color={'#1b2e0f'}
                                      width={'40px'}
                                      height={'40px'}
@@ -107,6 +118,7 @@ export function Remote(props: RemotePropsType) {
                                      currentValueCallback={props.currentValueCallback}
                 />
                 <ButtonForCalcRemote BackgroundColor={'#67b835'}
+                                     border={'2px solid #1b2e0f'}
                                      color={'#1b2e0f'}
                                      width={'40px'}
                                      height={'40px'}
@@ -118,6 +130,7 @@ export function Remote(props: RemotePropsType) {
             <div className={s.btnRowStyle}>
 
                 <ButtonForCalcRemote BackgroundColor={'#67b835'}
+                                     border={'2px solid #1b2e0f'}
                                      color={'#1b2e0f'}
                                      width={'84px'}
                                      height={'40px'}
@@ -126,6 +139,7 @@ export function Remote(props: RemotePropsType) {
                                      currentValueCallback={props.currentValueCallback}
                 />
                 <ButtonForCalcRemote BackgroundColor={'#67b835'}
+                                     border={'2px solid #1b2e0f'}
                                      color={'#1b2e0f'}
                                      width={'40px'}
                                      height={'40px'}
@@ -133,12 +147,8 @@ export function Remote(props: RemotePropsType) {
                                      ButtonValue={'='}
                                      currentValueCallback={props.currentValueCallback}
                 />
-
-
-
-                {/*<button onClick={props.EqualityHandler}>=</button>*/}
-
                 <ButtonForCalcRemote BackgroundColor={'#67b835'}
+                                     border={'2px solid #1b2e0f'}
                                      color={'#1b2e0f'}
                                      width={'40px'}
                                      height={'40px'}

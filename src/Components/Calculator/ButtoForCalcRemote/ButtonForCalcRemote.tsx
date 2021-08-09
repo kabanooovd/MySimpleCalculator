@@ -9,6 +9,7 @@ type ButtonForCalcRemoteType = {
     fontSize: string
     ButtonValue: string
     currentValueCallback: (text: string) => void
+    border: string
 }
 
 
@@ -21,10 +22,11 @@ export function ButtonForCalcRemote (props: ButtonForCalcRemoteType) {
         backgroundColor: props.BackgroundColor,
         color: props.color,
         fontSize: props.fontSize,
+        border: props.border
     }
 
     const currentValueCallback = () => {
-        // alert('wewew')
+        props.currentValueCallback(props.ButtonValue)
     }
 
     return(

@@ -5,6 +5,7 @@ import {ButtonForCalcRemote} from "../ButtoForCalcRemote/ButtonForCalcRemote";
 
 type DisplayPropsType = {
     currentValueCallback: (text: string) => void
+    val:string
 }
 
 export function Display(props: DisplayPropsType) {
@@ -13,6 +14,7 @@ export function Display(props: DisplayPropsType) {
         <div className={s.calcDisplay}>
             <div className={s.displayItems}>
                 <ButtonForCalcRemote BackgroundColor={'#67b835'}
+                                     border={'2px solid #1b2e0f'}
                                      color={'#1b2e0f'}
                                      width={'31px'}
                                      height={'31px'}
@@ -29,6 +31,7 @@ export function Display(props: DisplayPropsType) {
                                 color={'#67b835'}
                                 width={'100px'}
                                 height={'24px'}
+                                val={props.val}
                 />
             </div>
         </div>

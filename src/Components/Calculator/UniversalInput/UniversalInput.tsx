@@ -8,6 +8,7 @@ type UniversalInputPropsType = {
     color: string
     width: string
     height: string
+    val: string
 }
 
 export function UniversalInput (props: UniversalInputPropsType) {
@@ -24,7 +25,7 @@ export function UniversalInput (props: UniversalInputPropsType) {
 
     return(
         <div>
-            <input type="text" style={InputStyles}/>
+            <div style={InputStyles}>{props.val}</div>
         </div>
     )
 }
