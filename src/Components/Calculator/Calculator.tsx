@@ -10,11 +10,14 @@ export type CalculatorPropsType = {
 
 export function Calculator(props: CalculatorPropsType) {
 
+    const currentValueCallback = (text: string) => {
+        console.log(text)
+    }
 
     return (
         <div className={s.MainCalc}>
-            <Display />
-            <Remote />
+            <Display currentValueCallback={currentValueCallback}/>
+            <Remote currentValueCallback={currentValueCallback}/>
         </div>
     )
 }

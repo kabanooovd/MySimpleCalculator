@@ -3,7 +3,9 @@ import s from './Display.module.css'
 import {UniversalInput} from "../UniversalInput/UniversalInput";
 import {ButtonForCalcRemote} from "../ButtoForCalcRemote/ButtonForCalcRemote";
 
-type DisplayPropsType = {}
+type DisplayPropsType = {
+    currentValueCallback: (text: string) => void
+}
 
 export function Display(props: DisplayPropsType) {
 
@@ -16,6 +18,7 @@ export function Display(props: DisplayPropsType) {
                                      height={'31px'}
                                      fontSize={'18px'}
                                      ButtonValue={'C'}
+                                     currentValueCallback={props.currentValueCallback}
                 />
 
 
