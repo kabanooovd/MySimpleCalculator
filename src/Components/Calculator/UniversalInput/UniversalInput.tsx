@@ -25,7 +25,7 @@ export function UniversalInput (props: UniversalInputPropsType) {
 
     return(
         <div>
-            <div style={InputStyles}>{props.val}</div>
+            <div style={InputStyles}><span>{props.val}</span></div>
         </div>
     )
 }
