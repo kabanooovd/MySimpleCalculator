@@ -132,10 +132,19 @@ export function Remote(props: RemotePropsType) {
                 <ButtonForCalcRemote BackgroundColor={'#67b835'}
                                      border={'2px solid #1b2e0f'}
                                      color={'#1b2e0f'}
-                                     width={'84px'}
+                                     width={'40px'}
                                      height={'40px'}
                                      fontSize={'18px'}
                                      ButtonValue={'0'}
+                                     currentValueCallback={props.currentValueCallback}
+                />
+                <ButtonForCalcRemote BackgroundColor={'#67b835'}
+                                     border={'2px solid #1b2e0f'}
+                                     color={'#1b2e0f'}
+                                     width={'40px'}
+                                     height={'40px'}
+                                     fontSize={'18px'}
+                                     ButtonValue={'.'}
                                      currentValueCallback={props.currentValueCallback}
                 />
                 <ButtonForCalcRemote BackgroundColor={'#67b835'}

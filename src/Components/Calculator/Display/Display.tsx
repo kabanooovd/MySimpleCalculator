@@ -6,6 +6,7 @@ import {ButtonForCalcRemote} from "../ButtoForCalcRemote/ButtonForCalcRemote";
 type DisplayPropsType = {
     currentValueCallback: (text: string) => void
     val:string
+    error: boolean
 }
 
 export function Display(props: DisplayPropsType) {
@@ -32,6 +33,7 @@ export function Display(props: DisplayPropsType) {
                                 width={'100px'}
                                 height={'24px'}
                                 val={props.val}
+                                error={props.error}
                 />
             </div>
         </div>

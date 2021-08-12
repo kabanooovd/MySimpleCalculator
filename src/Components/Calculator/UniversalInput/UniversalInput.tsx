@@ -9,6 +9,7 @@ type UniversalInputPropsType = {
     width: string
     height: string
     val: string
+    error: boolean
 }
 
 export function UniversalInput (props: UniversalInputPropsType) {
@@ -23,9 +24,12 @@ export function UniversalInput (props: UniversalInputPropsType) {
         height: props.height
     }
 
+
+
     return(
         <div>
-            <div style={InputStyles}><span>{props.val}</span></div>
+            {/*<div style={InputStyles}><span>{props.val}</span></div>*/}
+            <div style={InputStyles}><span>{props.error ? 'Error' : props.val}</span></div>
         </div>
     )
 }
